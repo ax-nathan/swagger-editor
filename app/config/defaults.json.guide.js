@@ -67,6 +67,11 @@ var defaults = {
   editorReadOnly: false,
 
   /*
+   * Editor on right, preview on left.
+  */
+  flipLayout: false,
+
+  /*
    * List of example files to show to user to pick from. The URL to fetch each
    * example is a combination of `examplesFolder` and file name
   */
